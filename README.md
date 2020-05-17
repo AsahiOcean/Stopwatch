@@ -1,0 +1,2 @@
+# Stopwatch
+Секундомер | Stopwatch
