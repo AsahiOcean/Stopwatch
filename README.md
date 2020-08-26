@@ -1,2 +1,1 @@
-# Секундомер | Stopwatch
-![alt-текст](https://github.com/AsahiOcean/Stopwatch/blob/master/example.gif "")
+![](https://media.giphy.com/media/gGrZlF7YzAlLcAMKfO/source.gif)
