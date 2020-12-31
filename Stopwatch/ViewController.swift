@@ -1,7 +1,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var pause: UIButton!
     @IBOutlet weak var time: UILabel!
     @IBOutlet weak var go: UIButton!
@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     }
     
     @objc func UpdateTimer() {
-         counter = counter + 0.1
-     }
+        counter = counter + 0.1
+    }
     
     @IBAction func pauseTouch(_ sender: UIButton) {
         self.go.isEnabled = true
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         self.timer = nil
         self.isGo = false
     }
-
+    
     @IBAction func reset(_ sender: UIButton) {
         if let timerTemp = timer {
             timerTemp.invalidate()
